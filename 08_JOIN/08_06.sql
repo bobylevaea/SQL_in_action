@@ -16,4 +16,4 @@ FULL JOIN (
     WHERE birth_date IS NOT NULL
     GROUP BY birth_date
 ) b USING (birth_date)
-ORDER BY users_birth_date, couriers_birth_date
+ORDER BY users_birth_date, couriers_birth_date;
